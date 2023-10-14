@@ -1,0 +1,3 @@
+alive-progress==3.1.4
+meraki==1.38.0
+plac==1.4.0
