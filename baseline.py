@@ -64,10 +64,14 @@ def vprint(text):
 # file has one app name/line
 #
 def loadExclusions(textfile):
-    vprint("Loading exclusions")
+
     if textfile is None:
         if os.path.isfile(EXCLUSIONS):
+            vprint("Loading default exclusions")
             fn = EXCLUSIONS
+        else:
+            # no exclusions, return an empty set
+            return(set())
     else:
         if os.path.isfile(textfile):
             fn = textfile
@@ -75,8 +79,10 @@ def loadExclusions(textfile):
             print("Exclusions file does not exist. Exiting.")
             exit()
 
+    print(fn)
     appList = set()
 
+    print(fn)
     ignore = open(fn, 'r')
 
     for app in ignore:
