@@ -30,18 +30,18 @@ usage: baseline.py [-h] [-v] [-a APIKEY] [-n NET] [-e EXCLUSIONS]
 
 Identify applications that need to be installed or removed from a baseline computer
 
-positional arguments:
-&emsp;source                Source PC
-&emsp;targets               Zero or more targets
+positional arguments:<br>
+&emsp;source                Source PC<br>
+&emsp;targets               Zero or more targets<br>
 
-options:
-&emsp;-h, --help            show this help message and exit
-&emsp;-v, --verbose         Enable verbose mode
-&emsp;-a APIKEY, --apikey APIKEY
-                        Dashboard API KEY
-&emsp;-n NET, --net NET     Network ID
-&emsp;-e EXCLUSIONS, --exclusions EXCLUSIONS
-                        Filename of exclusions
+options:<br>
+&emsp;-h, --help            show this help message and exit<br>
+&emsp;-v, --verbose         Enable verbose mode<br>
+&emsp;-a APIKEY, --apikey APIKEY<br>
+                        Dashboard API KEY<br>
+&emsp;-n NET, --net NET     Network ID<br>
+&emsp;-e EXCLUSIONS, --exclusions EXCLUSIONS<br>
+                        Filename of exclusions<br>
 
 ## Installation
 
