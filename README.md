@@ -38,10 +38,14 @@ options:<br>
 &emsp;-h, --help            show this help message and exit<br>
 &emsp;-v, --verbose         Enable verbose mode<br>
 &emsp;-a APIKEY, --apikey APIKEY<br>
-                        Dashboard API KEY<br>
+&emsp;                        Dashboard API KEY<br>
 &emsp;-n NET, --net NET     Network ID<br>
 &emsp;-e EXCLUSIONS, --exclusions EXCLUSIONS<br>
-                        Filename of exclusions<br>
+&emsp;                        Filename of exclusions<br>
+
+If you do not list any targets, the app will baseline all computers in the dashboard.
+
+If you name your exclusions file exclusions.txt, it will automatically load that file.
 
 ## Installation
 
